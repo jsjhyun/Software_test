@@ -1,7 +1,3 @@
-
-
-// Á¤Çö_2020203097
-
 #include <stack>
 #include <iostream>
 #include <cctype>
