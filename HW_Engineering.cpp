@@ -1,5 +1,6 @@
 //2020203099 박재규
 
+// 수정 후 코드
 #include <stack>
 #include <iostream>
 #include <cctype>
