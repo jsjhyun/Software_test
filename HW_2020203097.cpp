@@ -29,7 +29,7 @@ void evaluate_stack(stack<double>& numbers, stack<char>& operations) {
 		case '*': numbers.push(operand1 * operand2); break;
 		case '/': numbers.push(operand1 / operand2);
 			if (operand2 == 0) {
-				cout << "Error!: divide by zero" << endl;
+				cout << "Error!: divide by zero!!" << endl;
 				++error_flag1;
 				break;
 			}
