@@ -74,7 +74,7 @@ double read_and_evaluate(istream& ins) {
 					opt = operations.top();
 					if (operations.size() == 1 && opt != '(')
 					{
-						cout << "Error!: unbalanced parentheses" << endl;
+						cout << "Error!: unbalanced parentheses!!" << endl;
 						++error_flag2;
 						break;
 					}
