@@ -1,4 +1,4 @@
-// ¼öÁ¤ ÈÄ ÄÚµå
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Úµï¿½
 
 #include <stack>
 #include <iostream>
@@ -29,7 +29,7 @@ void evaluate_stack(stack<double>& numbers, stack<char>& operations) {
 		case '*': numbers.push(operand1 * operand2); break;
 		case '/': numbers.push(operand1 / operand2);
 			if (operand2 == 0) {
-				cout << "Error!: divide by zero" << endl;
+				cout << "Error!: 0ìœ¼ë¡œëŠ” ë‚˜ëˆ„ì–´ì§€ì§€ ì•ŠìŠµë‹ˆë‹¤." << endl;
 				++error_flag1;
 				break;
 			}
