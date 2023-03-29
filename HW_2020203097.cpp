@@ -74,7 +74,7 @@ double read_and_evaluate(istream& ins) {
 					opt = operations.top();
 					if (operations.size() == 1 && opt != '(')
 					{
-						cout << "Error!: 괄호 불균형!" << endl;
+						cout << "Error 발생: unbalanced parentheses" << endl;
 						++error_flag2;
 						break;
 					}
