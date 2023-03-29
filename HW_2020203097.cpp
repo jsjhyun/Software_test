@@ -8,8 +8,7 @@ using namespace std;
 int error_flag1 = 0;
 int error_flag2 = 0;
 
-void evaluate_stack(stack<double>& numbers, stack<char>& operations)
-{
+void evaluate_stack(stack<double>& numbers, stack<char>& operations) {
 	while (!operations.empty())
 	{
 		if (operations.top() == '(' || operations.top() == '{' || operations.top() == '[')
@@ -37,8 +36,7 @@ void evaluate_stack(stack<double>& numbers, stack<char>& operations)
 	}
 }
 
-double read_and_evaluate(istream& ins)
-{
+double read_and_evaluate(istream& ins) {
 	stack<double> numbers;
 	stack<char> operations;
 	double number;
@@ -163,7 +161,6 @@ double read_and_evaluate(istream& ins)
 	return 0;
 }
 
-int main()
-{
+int main() {
 	read_and_evaluate(cin);
 }
